@@ -1,0 +1,9 @@
+package org.newshop.userservice.repositories;
+
+import org.newshop.userservice.entity.ContactInformation;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ContactInformationRepository extends JpaRepository <ContactInformation,Long> {
+}
